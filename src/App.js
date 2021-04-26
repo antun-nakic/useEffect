@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import UseEffectIntro from "./components/useEffectIntro";
+import UseEffectAdvance from "./components/useEffectAdvance";
+import UseEffectExpert from "./components/useEffectExpert";
+import UseEffectMaster from "./components/useEffectMaster";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <UseEffectMaster />
+      <hr />
+      <UseEffectExpert />
+      <hr />
+      <UseEffectAdvance />
+      <hr />
+      <UseEffectIntro />
     </div>
   );
 }
